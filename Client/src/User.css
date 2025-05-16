@@ -1,0 +1,158 @@
+.userpage-body {
+    background-color: rgb(246, 245, 249);
+    min-height: 100vh;
+}
+
+.profile-avatar {
+    transform: scale(2.1);
+    margin: 10vh;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.avatar-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+
+}
+
+.avatar-outerbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.986);
+    display: block;
+    margin: 2vh auto 2vh auto;
+    padding: 2vh;
+    position: relative;
+}
+
+.avatar-phone {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+
+}
+
+.avatar-logout {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    padding: 4vh;
+
+}
+
+.p-button-label {
+    margin: 0 5px;
+}
+
+/*Tab View Prime react*/
+
+.p-tabview-title {
+    padding: 20px;
+}
+
+.user-tabview {
+    margin: 0 auto;
+    margin-bottom: -10px;
+    width: 80%;
+    display: block;
+
+}
+
+.user-content {
+    margin: 2vh;
+}
+
+.user-orders-flexbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.user-orders-card {
+    min-width: fit-content;
+    width: 30%;
+    height: 40%;
+    margin: 2vh;
+    padding: 2vh;
+
+}
+
+.user-order-card-content {
+    padding: 2vh 0;
+}
+
+.order-food-text {
+    margin: 1vh 0;
+    font-size: 1.25rem;
+}
+
+.order-card-address {
+    margin: 2vh 1vh;
+    width: max-content;
+
+}
+
+.order-card-address-text {
+    font-size: 1rem;
+    margin: 1vh 0;
+}
+
+.primereact-class {
+    padding: 6px;
+    margin: 2vh 0 0 0;
+}
+
+/*Address Card*/
+.user-address-card {
+    width: max-content;
+    height: max-content;
+    margin: 2vh;
+    border: 2px solid transparent;
+    position: relative;
+   
+}
+
+.user-address-tag-card {
+    padding: 2vh;
+    margin: 2vh;
+    background-color: #ffff;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.address-card-address-text {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+/*Address*/
+.profile-input-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin: 3vh 5vh;
+}
+
+.profile-input-outerbox {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+/*Address Dialog*/
+.p-dialog-title {
+    margin: 2vh;
+}
+
+.p-inputtext {
+    padding: 1vh;
+}

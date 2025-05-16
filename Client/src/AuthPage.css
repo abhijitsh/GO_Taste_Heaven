@@ -1,0 +1,82 @@
+.authpage-flexbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.authpage-left{
+    height: 100%;
+    width: 80%;
+}
+.authpage-left-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.98;
+}
+.authpage-right{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #48255ef1;
+
+}
+
+.authpage-right-div{
+    padding: 7vh;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.auth-header{
+    text-align: center;
+    color: white;
+    margin: 2vh auto;
+}
+.auth-label{
+    margin: 1vh 0;
+    font-size: 1.25rem;
+    display: block;
+    /* color: rgb(255, 255, 255); */
+    color: black;
+    font-weight: 500;
+}
+
+.auth-input-div{
+    margin: 4vh auto;
+}
+
+.formfoot {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.formfoot>a {
+    color: rgb(92, 241, 39);
+}
+
+.formfoot>a:visted {
+    color: rgb(41, 135, 6);
+
+}
+
+.auth-btn{
+    display: block;
+    margin: 1vh auto;
+    width: max-content;
+    padding: 1vh 8vh;
+}
