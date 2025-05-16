@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/c081c9c5-d6d1-4f65-8fd4-15fcdc43edd8
 <p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/PSS2134/TasteHeaven_GO.git
+git clone https://github.com/abhijitsh/GO_Taste_Heaven.git
 ```
 
 <p>2. Now move into the **Client** folder</p>
