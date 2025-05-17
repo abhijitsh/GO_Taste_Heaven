@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	//cloudinary
-	"github.com/PSS2134/go_restapi/models"
+	"github.com/abhijitsh/go_restapi/models"
 	"github.com/cloudinary/cloudinary-go/v2"
 	"github.com/cloudinary/cloudinary-go/v2/api/uploader"
 )
