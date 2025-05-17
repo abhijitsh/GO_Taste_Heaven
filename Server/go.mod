@@ -1,4 +1,4 @@
-module github.com/PSS2134/go_restapi
+module github.com/abhijitsh/go_restapi
 
 go 1.23.0
 
