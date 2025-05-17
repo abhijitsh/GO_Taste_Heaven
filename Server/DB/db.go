@@ -1,6 +1,6 @@
 package db
 
-import "github.com/PSS2134/go_restapi/models"
+import "github.com/abhijitsh/go_restapi/models"
 
 // Define a mock database of menu items
 var MenuItems = []models.Food{
