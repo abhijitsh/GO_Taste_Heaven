@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/PSS2134/go_restapi/router"
+	"github.com/abhijitsh/go_restapi/router"
 	"github.com/rs/cors"
 )
 
