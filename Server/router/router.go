@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/PSS2134/go_restapi/middleware"
+	"github.com/abhijitsh/go_restapi/middleware"
 	"github.com/gorilla/mux"
 )
 
